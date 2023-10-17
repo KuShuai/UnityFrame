@@ -1,0 +1,31 @@
+/Library/
+/[Tt]emp/
+/[Oo]bj/
+/[Ss]treaming/
+/[Bb]undleManifest/
+/[Tt]emp/
+/[Tt]emporary/
+/[Dd]ata/
+/[Rr]ecordings/
+/[Ll]ogs/
+/[Mm]yBundle/
+
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.apk
+*.unitypackage
+*.vsconfig
+*build_info
+
+# Unity3D generated meta files
+*.pidb.meta
+
+# Unity3D Generated File On Crash Reports
+sysinfo.txt
