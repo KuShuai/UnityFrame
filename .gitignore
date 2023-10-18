@@ -10,6 +10,13 @@
 /[Ll]ogs/
 /[Mm]yBundle/
 
+/Assets/XLua/Gen
+/Assets/XLua/Gen.meta
+/Assets/XLua/Examples
+/Assets/XLua/Examples.meta
+/Assets/XLua/Tutorial
+/Assets/XLua/Tutorial.meta
+
 *.csproj
 *.unityproj
 *.sln
