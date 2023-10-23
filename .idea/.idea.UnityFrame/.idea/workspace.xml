@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe89d7fc-833e-4372-ba1c-2b1d62ffead3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundleResources/Prefabs/Props.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundleResources/Prefabs/Props.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundleResources/Prefabs/Workshop Set.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundleResources/Prefabs/Workshop Set.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/HDRPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/HDRPProjectSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F0E44B29-E3F1-438A-B172-E6A60928A3B6/9c/5f42c310/StringBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIManager/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23CEDEFA-2950-47EE-A2D0-8A34071111A5/9f/a955c099/BuildPipelineInterfaces.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/MyAssetBundle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9EADB6C7-050A-4E92-B206-C83CB4765A54/23/d5aec59e/AssetBundleRequest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F0E44B29-E3F1-438A-B172-E6A60928A3B6/63/a494b8eb/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesLoad/DeployResourceManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainStart.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/ResourceManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ResourcesLoad/DeployABResourceManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UIPanel/UIConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UIPanel/UIPanel.cs" />
+      <option value="$PROJECT_DIR$/XLua/Class.lua" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ResourcesLoad/ResourceManagerConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Editor/MainStart.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/XLua/LuaInterface.cs" />
+      <option value="$PROJECT_DIR$/XLua/Manager/UI/UIManager.lua" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UIManager/UILayer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ResourcesLoad/ResourceManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UIPanel/UIWidget.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UIManager/UIManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utils/RSPathUtil.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MainStart.cs" />
+      <option value="$PROJECT_DIR$/XLua/UI/UIPanelEnum" />
+      <option value="$PROJECT_DIR$/XLua/UI/UIPanelEnum.lua" />
+      <option value="$PROJECT_DIR$/XLua/UI/UIConfig.lua" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/XLua/LuaInterface_UI.cs" />
+      <option value="$PROJECT_DIR$/XLua/Main.lua" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/XLua/LuaScriptManager.cs" />
+      <option value="$PROJECT_DIR$/XLua/UI/Panel/Panel.lua" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ResourcesLoad/DeployResourceManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Editor/MyAssetBundle.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="2WxdskInKIJe99cZIlwehpa74Zv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="17296">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="17296" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe89d7fc-833e-4372-ba1c-2b1d62ffead3" name="Default Changelist" comment="" />
+      <created>1697678378698</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697678378698</updated>
+      <workItem from="1697678386558" duration="24417000" />
+      <workItem from="1697764012764" duration="789000" />
+      <workItem from="1697764824377" duration="89000" />
+      <workItem from="1697765159127" duration="15039000" />
+      <workItem from="1698023279001" duration="9334000" />
+      <workItem from="1698040136179" duration="9442000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.lua" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/XLua/LuaInterface.cs</url>
+          <line>16</line>
+          <properties documentPath="D:\Project\UnityFrame\Assets\Scripts\XLua\LuaInterface.cs" initialLine="15" containingFunctionPresentation="method 'Split'">
+            <startOffsets>
+              <option value="342" />
+            </startOffsets>
+            <endOffsets>
+              <option value="352" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
