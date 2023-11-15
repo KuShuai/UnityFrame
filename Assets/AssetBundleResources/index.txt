@@ -2,14 +2,6 @@ HDRPDefaultResources/DefaultHDRISky:HDRPDefaultResources/HDRPDefaultResources.as
 HDRPDefaultResources/DefaultSceneRoot:HDRPDefaultResources/HDRPDefaultResources.assetbundle
 HDRPDefaultResources/HDRPDefaultSettings:HDRPDefaultResources/HDRPDefaultResources.assetbundle
 HDRPDefaultResources/Sky and Fog Settings Profile:HDRPDefaultResources/HDRPDefaultResources.assetbundle
-LuaScripts/Main.lua:LuaScripts/LuaScripts.assetbundle
-LuaScripts/Common/Class.lua:LuaScripts/LuaScripts.assetbundle
-LuaScripts/Common/Singleton.lua:LuaScripts/LuaScripts.assetbundle
-LuaScripts/Manager/UI/UIManager.lua:LuaScripts/LuaScripts.assetbundle
-LuaScripts/UI/UIConfig.lua.lua:LuaScripts/LuaScripts.assetbundle
-LuaScripts/UI/UIConfig.lua:LuaScripts/LuaScripts.assetbundle
-LuaScripts/UI/UIPanelEnum.lua:LuaScripts/LuaScripts.assetbundle
-LuaScripts/UI/Panel/Panel.lua:LuaScripts/LuaScripts.assetbundle
 Materials/ConstructionLight_Mat:Materials/Materials.assetbundle
 Materials/DryWallPainted_Mat:Materials/Materials.assetbundle
 Materials/DryWall_Mat:Materials/Materials.assetbundle
@@ -99,3 +91,11 @@ Textures/Wood/OBS_Normal:Textures/Textures.assetbundle
 Textures/Wood/Plywood_Albedo:Textures/Textures.assetbundle
 Textures/Wood/Plywood_MetallicOcculusionSmoothness:Textures/Textures.assetbundle
 Textures/Wood/Plywood_Normal:Textures/Textures.assetbundle
+XLua/Main.lua:XLua/XLua.assetbundle
+XLua/Common/Class.lua:XLua/XLua.assetbundle
+XLua/Common/Singleton.lua:XLua/XLua.assetbundle
+XLua/Manager/UI/UIManager.lua:XLua/XLua.assetbundle
+XLua/UI/UIConfig.lua.lua:XLua/XLua.assetbundle
+XLua/UI/UIConfig.lua:XLua/XLua.assetbundle
+XLua/UI/UIPanelEnum.lua:XLua/XLua.assetbundle
+XLua/UI/Panel/Panel.lua:XLua/XLua.assetbundle

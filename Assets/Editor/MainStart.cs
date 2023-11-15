@@ -1,3 +1,9 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.IO;
+using System.Text;
+using NUnit.Framework.Constraints;
 using UnityEditor;
 using UnityEditor.Experimental.TerrainAPI;
 using UnityEngine;
@@ -8,7 +14,7 @@ public class MainStartEditor : Editor
     public override void OnInspectorGUI()
     {
         base.OnInspectorGUI();
-        
+
         EditorGUILayout.Space();
         EditorGUILayout.LabelField("ResourceManager Mode");
         EditorGUILayout.BeginVertical(GUI.skin.textArea);
@@ -18,12 +24,12 @@ public class MainStartEditor : Editor
             Deploy_AB = EditorGUILayout.ToggleLeft("Deploy_AB", Deploy_AB);
             if (EditorGUI.EndChangeCheck())
             {
-                EditorPrefs.SetBool("Deploy_AB",Deploy_AB);
+                EditorPrefs.SetBool("Deploy_AB", Deploy_AB);
                 if (Deploy_AB)
                 {
-                    if (EditorPrefs.GetBool("Develop",true))
+                    if (EditorPrefs.GetBool("Develop", true))
                     {
-                        EditorPrefs.SetBool("Develop",false);
+                        EditorPrefs.SetBool("Develop", false);
                     }
                 }
             }
@@ -45,7 +51,7 @@ public class MainStartEditor : Editor
                 }
             }
         }
-    
+
         EditorGUILayout.EndVertical();
     }
 }

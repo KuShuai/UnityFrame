@@ -10,7 +10,7 @@ public class RSPathUtil
     public const string Ext = "";
     public static string UIPath = "Prefabs/UIPrefabs/";
     public static string ConfigsPath = "Configs/";
-    public static string LuaScriptsBundlePath = "LuaScripts/";
+    public static string LuaScriptsBundlePath = "XLua/";
 
     public static string Config(string name)
     {

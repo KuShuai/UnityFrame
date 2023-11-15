@@ -44,7 +44,8 @@ namespace XLua
 
         private byte[] LuaLoader(ref string filePath)
         {
-            filePath = filePath.Replace('.', '/')+".lua";
+            //filePath = filePath.Replace('.', '/')+".lua";
+            filePath = filePath.Replace('.', '/');
             byte[] lua_code;
             ResourceManager.Instance.LoadLuaScript(filePath, out lua_code);
             return lua_code;

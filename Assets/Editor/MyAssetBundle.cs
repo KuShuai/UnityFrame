@@ -49,7 +49,7 @@ public class MyAssetBundle : Editor
         string BundlePath = "Assets/AssetBundleResources/LuaScripts";
 
         string luaSrcPath = string.Format("{0}/../XLua/", Application.dataPath);
-        string luaPrefabPath = string.Format("{0}/AssetBundleResources/LuaScripts/", Application.dataPath);
+        string luaPrefabPath = string.Format("{0}/AssetBundleResources/XLua/", Application.dataPath);
 
         //将LuaScripts删除
         if (Directory.Exists(BundleExportPath+"/luascripts"))
@@ -155,14 +155,12 @@ public class MyAssetBundle : Editor
         IndexFileContent.AppendFormat("{0}", PlayerSettings.bundleVersion);
         IndexFileContent.AppendLine();
         
-        //File.WriteAllText(ResourceManagerConfig.kVersionFileInnerPath, IndexFileContent.ToString());
-        
         IndexFileContent.Clear();
-        //string BundleExportPath = Application.dataPath + "/Bundles";
+        
         string BundlePath = "Assets/AssetBundleResources";
         
-        string LuaSrcPath = string.Format("{0}/../Lua/Scripts/", Application.dataPath);
-        string LuaPrefabPath = string.Format("{0}/PrefabResources/LuaScripts/", Application.dataPath);
+        string luaSrcPath = string.Format("{0}/../XLua/", Application.dataPath);
+        string luaPrefabPath = string.Format("{0}/AssetBundleResources/XLua/", Application.dataPath);
 
         if (Directory.Exists(BundleExportPath))
         {
@@ -172,7 +170,7 @@ public class MyAssetBundle : Editor
 
 
         // lua
-        CopyLuaDirectory(LuaSrcPath, LuaPrefabPath);
+        CopyLuaDirectory(luaSrcPath, luaPrefabPath);
 
         List<AssetBundleBuild> builds = new List<AssetBundleBuild>();
 

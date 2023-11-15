@@ -21,17 +21,17 @@ namespace ResourcesLoad
         public override void Init()
         {
             base.Init();
-           // AssetBundle index_bundle = _LoadBundle(ResourceManagerConfig.kIndexFileName);
-           // LoadIndexFile(index_bundle.LoadAsset<TextAsset>(ResourceManagerConfig.kIndexFileName));
-           // index_bundle.Unload(false);
-           // index_bundle = null;
-           // 
-           // Debug.Log("begin to load mainfest");
-//
-           // AssetBundle manifest_bundle = _LoadBundle("Bundles");
-           // _manifest = manifest_bundle.LoadAsset<AssetBundleManifest>("AssetBundleManifest");
-           // manifest_bundle.Unload(false);
-           // manifest_bundle = null;
+           AssetBundle index_bundle = _LoadBundle(ResourceManagerConfig.kIndexFileName);
+           LoadIndexFile(index_bundle.LoadAsset<TextAsset>(ResourceManagerConfig.kIndexFileName));
+           index_bundle.Unload(false);
+           index_bundle = null;
+           
+           Debug.Log("begin to load mainfest");
+           
+           AssetBundle manifest_bundle = _LoadBundle("Bundles");
+           _manifest = manifest_bundle.LoadAsset<AssetBundleManifest>("AssetBundleManifest");
+           manifest_bundle.Unload(false);
+           manifest_bundle = null;
             
         }
 
@@ -129,11 +129,8 @@ namespace ResourcesLoad
 
         public override bool LoadLuaScript(string asset_name, out byte[] content)
         {
-            //加载本地lua文件
-            return base.LoadLuaScript(asset_name, out content);
-            
-            
             string path = RSPathUtil.LuaScript(asset_name);
+            Debug.Log(path);
             var asset = Load<TextAsset>(path);
             content = asset != null ? asset.bytes : null;
             return asset != null;
@@ -147,6 +144,7 @@ namespace ResourcesLoad
                 var bd_hash = bundle_name.GetHashCode();
 
                 string bundle_load_path = _FormatBundleLoadPath(bundle_name);
+                Debug.Log(bundle_load_path+"    "+bundle_name);
                 bundle = AssetBundle.LoadFromFile(bundle_load_path);
 
                 if (bundle != null)
@@ -154,6 +152,10 @@ namespace ResourcesLoad
                     _bundles.Add(bd_hash,bundle);
                 }
 
+            }
+            else
+            {
+                Debug.LogFormat("Bundle is null :"+bundle_name);
             }
             return bundle;
         }

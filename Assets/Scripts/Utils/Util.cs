@@ -28,10 +28,10 @@ public class Util : MonoBehaviour
     }
 
     /// <summary>
-    /// ¾­Î³¶È×ª»»ÎªU3D×ø±ê£¬ĞèµÈ±ÈÀıËõ·Å£¬ÒÔ¼°Ìí¼ÓÒ»¶¨µÄÆ«ÒÆÁ¿
+    /// ç»çº¬åº¦è½¬æ¢ä¸ºU3Dåæ ‡ï¼Œéœ€ç­‰æ¯”ä¾‹ç¼©æ”¾ï¼Œä»¥åŠæ·»åŠ ä¸€å®šçš„åç§»é‡
     /// </summary>
-    /// <param name="longitude">¾­¶È</param>
-    /// <param name="latitude">Î³¶È</param>
+    /// <param name="longitude">ç»åº¦</param>
+    /// <param name="latitude">çº¬åº¦</param>
     /// <returns></returns>
     public static Vector3 ConvertToVector3(double longitude, double latitude)
     {

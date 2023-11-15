@@ -2,6 +2,7 @@
 using System.IO;
 using UnityEngine;
 using ResourcesLoad;
+using UnityEditor;
 using Object = UnityEngine.Object;
 
 namespace ResourcesLoad
@@ -17,7 +18,11 @@ namespace ResourcesLoad
                 if (instance == null)
                 {
                     #if UNITY_EDITOR
-                    instance = Util.CreateDonDestroyObj<DeployResourceManager>("Resource|DeployResourceManager");
+                    bool Deploy_AB = EditorPrefs.GetBool("Deploy_AB", false);
+                    if (Deploy_AB)
+                        instance = Util.CreateDonDestroyObj<DeployABResourceManager>("Resource|DeployABResourceManager");
+                    else
+                        instance = Util.CreateDonDestroyObj<DeployResourceManager>("Resource|DeployResourceManager");
                     #else
                     instance = Util.CreateDonDestroyObj<DeployABResourceManager>("Resource|DeployABResourceManager");
                     #endif
@@ -28,6 +33,7 @@ namespace ResourcesLoad
 
         private void Awake()
         {
+            Init();
         }
 
         public virtual void Init() { }

@@ -1,5 +1,5 @@
-UIPanelEnum = require "XLua.UI.UIPanelEnum"
-require "XLua.UI.UIConfig"
+UIPanelEnum = require "UI.UIPanelEnum"
+require "UI.UIConfig"
 
 function Debug(fmt,...)
 	if type(fmt)=="string" then
