@@ -76,6 +76,8 @@ namespace XLua
 
         public UIConfig GetUIConfig(int id)
         {
+            if(get_uiconfig == null)
+                _lua.Global.Get("GetUIConfig", out get_uiconfig);
             UIConfig uIConfig = get_uiconfig?.Func<int, UIConfig>(id);
 
             if (uIConfig == null && id == 0)

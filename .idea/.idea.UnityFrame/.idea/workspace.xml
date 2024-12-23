@@ -2,12 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe89d7fc-833e-4372-ba1c-2b1d62ffead3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundleResources/Prefabs/Props.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundleResources/Prefabs/Props.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundleResources/Prefabs/Workshop Set.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundleResources/Prefabs/Workshop Set.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityFrame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityFrame/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityFrame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityFrame/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityFrame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityFrame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundleResources/Prefabs/UIPrefabs/Panel.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundleResources/Prefabs/UIPrefabs/Panel.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundleResources/XLua/Main.lua.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundleResources/XLua/Main.lua.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundleResources/XLua/UI/Panel/Panel.lua.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundleResources/XLua/UI/Panel/Panel.lua.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundleResources/XLua/UI/UIConfig.lua.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundleResources/XLua/UI/UIConfig.lua.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundleResources/XLua/UI/UIPanelEnum.lua.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundleResources/XLua/UI/UIPanelEnum.lua.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundleResources/index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundleResources/index.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainStart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainStart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ResourcesLoad/ResourceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ResourcesLoad/ResourceManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tools/TextEffects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tools/TextEffects.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIPanel/UIConfig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIPanel/UIConfig.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIPanel/UIPanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIPanel/UIPanel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIPanel/UIWidget.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIPanel/UIWidget.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/XLua/LuaScriptManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/XLua/LuaScriptManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/HDRPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/HDRPProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XLua/Main.lua" beforeDir="false" afterPath="$PROJECT_DIR$/XLua/Main.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XLua/UI/Panel/Panel.lua" beforeDir="false" afterPath="$PROJECT_DIR$/XLua/UI/Panel/Panel.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XLua/UI/UIConfig.lua" beforeDir="false" afterPath="$PROJECT_DIR$/XLua/UI/UIConfig.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XLua/UI/UIPanelEnum.lua" beforeDir="false" afterPath="$PROJECT_DIR$/XLua/UI/UIPanelEnum.lua" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,42 +39,70 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F0E44B29-E3F1-438A-B172-E6A60928A3B6/9c/5f42c310/StringBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIManager/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23CEDEFA-2950-47EE-A2D0-8A34071111A5/9f/a955c099/BuildPipelineInterfaces.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIPanel/TalkPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tools/TextEffects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIPanel/TimeLinePanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F0E44B29-E3F1-438A-B172-E6A60928A3B6/63/a494b8eb/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConfigTools/ExcelToFBS/ExcelToFBS/Convertor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FTPUpAndDown.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F0E44B29-E3F1-438A-B172-E6A60928A3B6/6e/ad7cb1d8/AppDomain.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F0E44B29-E3F1-438A-B172-E6A60928A3B6/9c/5f42c310/StringBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Configs/PaintingTalkEachConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConfigTools/ExcelToFBS/ExcelToFBS/Validator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConfigTools/ExcelToFBS/ExcelToFBS/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/MyAssetBundle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9EADB6C7-050A-4E92-B206-C83CB4765A54/23/d5aec59e/AssetBundleRequest.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F0E44B29-E3F1-438A-B172-E6A60928A3B6/63/a494b8eb/String.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesLoad/DeployResourceManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainStart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConfigTools/ExcelToFBS/ExcelToFBS/Data.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConfigTools/ExcelToFBS/ExcelToFBS/AppConfigs.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tools/ScrollView/NextPage/ScrollViewBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9EADB6C7-050A-4E92-B206-C83CB4765A54/55/4ab4f466/AssetBundle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23CEDEFA-2950-47EE-A2D0-8A34071111A5/9f/a955c099/BuildPipelineInterfaces.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/UIPanelEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConfigTools/ExcelToFBS/ExcelToFBS/Utils.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/ResourceManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ResourcesLoad/DeployABResourceManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UIPanel/UIConfig.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UIPanel/UIPanel.cs" />
       <option value="$PROJECT_DIR$/XLua/Class.lua" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ResourcesLoad/ResourceManagerConfig.cs" />
-      <option value="$PROJECT_DIR$/Assets/Editor/MainStart.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/XLua/LuaInterface.cs" />
       <option value="$PROJECT_DIR$/XLua/Manager/UI/UIManager.lua" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UIManager/UILayer.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ResourcesLoad/ResourceManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UIPanel/UIWidget.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UIManager/UIManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Utils/RSPathUtil.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/MainStart.cs" />
       <option value="$PROJECT_DIR$/XLua/UI/UIPanelEnum" />
-      <option value="$PROJECT_DIR$/XLua/UI/UIPanelEnum.lua" />
-      <option value="$PROJECT_DIR$/XLua/UI/UIConfig.lua" />
       <option value="$PROJECT_DIR$/Assets/Scripts/XLua/LuaInterface_UI.cs" />
-      <option value="$PROJECT_DIR$/XLua/Main.lua" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/XLua/LuaScriptManager.cs" />
-      <option value="$PROJECT_DIR$/XLua/UI/Panel/Panel.lua" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ResourcesLoad/DeployResourceManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Editor/MyAssetBundle.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ResourcesLoad/ResourceManagerConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ResourcesLoad/DeployABResourceManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FTPUpAndDown.cs" />
+      <option value="$PROJECT_DIR$/Assets/Editor/UpLoad/UpLoadFile.cs" />
+      <option value="$PROJECT_DIR$/XLua/UpdataVersion.lua" />
+      <option value="$PROJECT_DIR$/XLua/UI/Panel/Panel.lua" />
+      <option value="$PROJECT_DIR$/Assets/Editor/MainStart.cs" />
+      <option value="$PROJECT_DIR$/XLua/Tool/TextEffects.lua" />
+      <option value="$PROJECT_DIR$/Assets/Editor/UIPanelEditor.cs" />
+      <option value="$PROJECT_DIR$/XLua/UI/UIPanelEnum.lua" />
+      <option value="$PROJECT_DIR$/XLua/UI/UIConfig.lua" />
+      <option value="$PROJECT_DIR$/XLua/Main.lua" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/XLua/LuaScriptManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MainStart.cs" />
+      <option value="$PROJECT_DIR$/ConfigTools/ExcelToFBS/ExcelToFBS/App.config" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utils/RSPathUtil.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ResourcesLoad/ResourceManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Configs/PaintingTalkEachConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UIPanel/Base/UIWidget.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tools/TextEffects.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UIPanel/TalkPanel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tools/NextPage/PaintingScrollView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UIPanel/TimeLinePanel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tools/NextPage/ScrollViewBase.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2WxdskInKIJe99cZIlwehpa74Zv" />
@@ -93,10 +142,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="17296">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="17296" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -116,7 +165,16 @@
       <workItem from="1697764824377" duration="89000" />
       <workItem from="1697765159127" duration="15039000" />
       <workItem from="1698023279001" duration="9334000" />
-      <workItem from="1698040136179" duration="9442000" />
+      <workItem from="1698040136179" duration="12417000" />
+      <workItem from="1698110338724" duration="11246000" />
+      <workItem from="1698286056955" duration="1225000" />
+      <workItem from="1698723063108" duration="1138000" />
+      <workItem from="1698724234884" duration="2582000" />
+      <workItem from="1698981824811" duration="7391000" />
+      <workItem from="1700011442565" duration="11098000" />
+      <workItem from="1700125521811" duration="1978000" />
+      <workItem from="1700445479569" duration="8766000" />
+      <workItem from="1700529635203" duration="10296000" />
     </task>
     <servers />
   </component>
@@ -158,6 +216,84 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/ResourcesLoad/DeployABResourceManager.cs</url>
+          <line>121</line>
+          <properties documentPath="D:\Project\UnityFrame\Assets\Scripts\ResourcesLoad\DeployABResourceManager.cs" initialLine="121" containingFunctionPresentation="method 'Load'">
+            <startOffsets>
+              <option value="4298" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4347" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/ResourcesLoad/DeployABResourceManager.cs</url>
+          <line>23</line>
+          <properties documentPath="D:\Project\UnityFrame\Assets\Scripts\ResourcesLoad\DeployABResourceManager.cs" initialLine="23" containingFunctionPresentation="method 'Init'">
+            <startOffsets>
+              <option value="692" />
+            </startOffsets>
+            <endOffsets>
+              <option value="769" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/UIPanel/Base/UIWidget.cs</url>
+          <line>74</line>
+          <properties documentPath="D:\Project\UnityFrame\Assets\Scripts\UIPanel\Base\UIWidget.cs" initialLine="74" containingFunctionPresentation="method 'InitWidgets'">
+            <startOffsets>
+              <option value="1803" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1840" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/UIPanel/Base/UIWidget.cs</url>
+          <line>148</line>
+          <properties documentPath="D:\Project\UnityFrame\Assets\Scripts\UIPanel\Base\UIWidget.cs" initialLine="148" containingFunctionPresentation="method 'GetUIWidget'">
+            <startOffsets>
+              <option value="3459" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3484" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/UIPanel/Base/UIWidget.cs</url>
+          <line>157</line>
+          <properties documentPath="D:\Project\UnityFrame\Assets\Scripts\UIPanel\Base\UIWidget.cs" initialLine="157" containingFunctionPresentation="method 'GetUIWidget'">
+            <startOffsets>
+              <option value="3870" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3891" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/UIPanel/Base/UIWidget.cs</url>
+          <line>166</line>
+          <properties documentPath="D:\Project\UnityFrame\Assets\Scripts\UIPanel\Base\UIWidget.cs" initialLine="166" containingFunctionPresentation="method 'GetUIWidget'">
+            <startOffsets>
+              <option value="4220" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4245" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -12,9 +12,9 @@ public class MainStart : MonoBehaviour
     private void Awake()
     {
         UIManager.Instance.Init();
-        //ResourceManager.Instance.Init();
         LuaScriptManager.Instance.Init();
-        //UIManager.OpenUI("", null);
+        //ResourceManager.Instance.Init();
+        //UIManager.OpenUIPanel_LUA(2, null);
     }
     private long totalDownLoadLength;
     private long enDownLoadLength;

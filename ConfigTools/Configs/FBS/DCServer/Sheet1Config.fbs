@@ -1,0 +1,14 @@
+﻿namespace AutoGenConfig;
+
+table Sheet1Config{
+    data:[SingleSheet1ConfigData];
+}
+
+table SingleSheet1ConfigData{
+    ID:int;
+    data1:string;
+    data2:int;
+}
+
+root_type Sheet1Config;
+file_identifier "WHAT";

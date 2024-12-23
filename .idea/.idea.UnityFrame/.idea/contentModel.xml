@@ -9,7 +9,7 @@
       <e p="Assets" t="Include">
         <e p="AssetBundleResources" t="Include">
           <e p="index.txt" t="Include" />
-          <e p="LuaScripts" t="Include">
+          <e p="XLua" t="Include">
             <e p="Common" t="Include">
               <e p="Class.lua.txt" t="Include" />
               <e p="Singleton.lua.txt" t="Include" />
@@ -20,6 +20,9 @@
                 <e p="UIManager.lua.txt" t="Include" />
               </e>
             </e>
+            <e p="Tool" t="Include">
+              <e p="TextEffects.lua.txt" t="Include" />
+            </e>
             <e p="UI" t="Include">
               <e p="Panel" t="Include">
                 <e p="Panel.lua.txt" t="Include" />
@@ -28,13 +31,25 @@
               <e p="UIConfig.lua.txt" t="Include" />
               <e p="UIPanelEnum.lua.txt" t="Include" />
             </e>
+            <e p="UpdataVersion.lua.txt" t="Include" />
           </e>
         </e>
         <e p="Editor" t="Include">
           <e p="MainStart.cs" t="Include" />
           <e p="MyAssetBundle.cs" t="Include" />
+          <e p="UIPanelEditor.cs" t="Include" />
+          <e p="UpLoad" t="Include">
+            <e p="UpLoadFile.cs" t="Include" />
+          </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AutoGenerateConfigs" t="Include">
+            <e p="TalkEachConfig.cs" t="Include" />
+          </e>
+          <e p="Configs" t="Include">
+            <e p="PaintingTalkEachConfig.cs" t="Include" />
+          </e>
+          <e p="FTPUpAndDown.cs" t="Include" />
           <e p="MainStart.cs" t="Include" />
           <e p="ResourcesLoad" t="Include">
             <e p="DeployABResourceManager.cs" t="Include" />
@@ -48,14 +63,28 @@
             <e p="MonoSingleton.cs" t="Include" />
             <e p="Singleton.cs" t="Include" />
           </e>
+          <e p="Tools" t="Include">
+            <e p="ScrollView" t="Include">
+              <e p="NextPage" t="Include">
+                <e p="PaintingScrollView.cs" t="Include" />
+                <e p="ScrollViewBase.cs" t="Include" />
+                <e p="ScrollViewItem.cs" t="Include" />
+              </e>
+            </e>
+            <e p="TextEffects.cs" t="Include" />
+          </e>
           <e p="UIManager" t="Include">
             <e p="UILayer.cs" t="Include" />
             <e p="UIManager.cs" t="Include" />
           </e>
           <e p="UIPanel" t="Include">
-            <e p="UIConfig.cs" t="Include" />
-            <e p="UIPanel.cs" t="Include" />
-            <e p="UIWidget.cs" t="Include" />
+            <e p="Base" t="Include">
+              <e p="UIConfig.cs" t="Include" />
+              <e p="UIPanel.cs" t="Include" />
+              <e p="UIWidget.cs" t="Include" />
+            </e>
+            <e p="TalkPanel.cs" t="Include" />
+            <e p="TimeLinePanel.cs" t="Include" />
           </e>
           <e p="Utils" t="Include">
             <e p="PathUtil.cs" t="Include" />
@@ -69,22 +98,32 @@
             <e p="LuaScriptManager.cs" t="Include" />
           </e>
         </e>
+        <e p="ThirdParty" t="Include">
+          <e p="DOTween" t="Include">
+            <e p="Modules" t="Include">
+              <e p="DOTweenModuleAudio.cs" t="Include" />
+              <e p="DOTweenModulePhysics.cs" t="Include" />
+              <e p="DOTweenModulePhysics2D.cs" t="Include" />
+              <e p="DOTweenModuleSprite.cs" t="Include" />
+              <e p="DOTweenModuleUI.cs" t="Include" />
+              <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+              <e p="DOTweenModuleUtils.cs" t="Include" />
+            </e>
+          </e>
+          <e p="FlatBuffer" t="Include">
+            <e p="ByteBuffer.cs" t="Include" />
+            <e p="FlatBufferBuilder.cs" t="Include" />
+            <e p="FlatBufferConstants.cs" t="Include" />
+            <e p="IFlatbufferObject.cs" t="Include" />
+            <e p="Offset.cs" t="Include" />
+            <e p="Struct.cs" t="Include" />
+            <e p="Table.cs" t="Include" />
+          </e>
+        </e>
         <e p="XLua" t="Include">
           <e p="CHANGELOG.txt" t="Include" />
           <e p="Editor" t="Include">
             <e p="ExampleConfig.cs" t="Include" />
-          </e>
-          <e p="Gen" t="Include">
-            <e p="DelegatesGensBridge.cs" t="Include" />
-            <e p="EnumWrap.cs" t="Include" />
-            <e p="link.xml" t="Include" />
-            <e p="LuaInterface_UIWrap.cs" t="Include" />
-            <e p="LuaInterfaceWrap.cs" t="Include" />
-            <e p="PackUnpack.cs" t="Include" />
-            <e p="UIConfigWrap.cs" t="Include" />
-            <e p="UIWidgetWrap.cs" t="Include" />
-            <e p="WrapPusher.cs" t="Include" />
-            <e p="XLuaGenAutoRegister.cs" t="Include" />
           </e>
           <e p="Resources" t="Include">
             <e p="perf" t="Include">

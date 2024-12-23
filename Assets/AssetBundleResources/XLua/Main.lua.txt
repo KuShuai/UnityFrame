@@ -10,7 +10,7 @@ function Debug(fmt,...)
 	end
 end
 
-CS.LuaInterface_UI.OpenPanel(UIPanelEnum.Panel)
+CS.LuaInterface_UI.OpenPanel(UIPanelEnum.TalkPanel)
 Debug("AAAAA1111")
 
 

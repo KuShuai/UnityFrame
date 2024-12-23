@@ -1,5 +1,5 @@
-UIPanelEnum = require "XLua.UI.UIPanelEnum"
-require "XLua.UI.UIConfig"
+UIPanelEnum = require "UI.UIPanelEnum"
+require "UI.UIConfig"
 
 function Debug(fmt,...)
 	if type(fmt)=="string" then
@@ -10,7 +10,7 @@ function Debug(fmt,...)
 	end
 end
 
-CS.LuaInterface_UI.OpenPanel(UIPanelEnum.Panel)
+CS.LuaInterface_UI.OpenPanel(UIPanelEnum.TalkPanel)
 Debug("AAAAA1111")
 
 

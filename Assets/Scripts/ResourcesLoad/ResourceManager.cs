@@ -11,6 +11,8 @@ namespace ResourcesLoad
     {
         private static ResourceManager instance;
 
+        public delegate void ProcTextAsssetRes(byte[] bytes);
+
         public static ResourceManager Instance
         {
             get
@@ -36,6 +38,22 @@ namespace ResourcesLoad
             Init();
         }
 
+        public void LoadAndProcTextAsset(string path,ProcTextAsssetRes proc)
+        {
+            TextAsset file = Load(path) as TextAsset;
+            if (file != null)
+            {
+                try
+                {
+                    proc(file.bytes);
+                }
+                catch (Exception e)
+                {
+                    Debug.LogError(e);
+                }
+            }
+        }
+            
         public virtual void Init() { }
 
         public T Load<T>(string asset_name) where T : Object

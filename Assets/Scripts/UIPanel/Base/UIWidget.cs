@@ -74,7 +74,7 @@ public class UIWidget : MonoBehaviour
         _linkItemMap = new Dictionary<int, LinkItem>();
         for (int i = 0; i < Links.Count; i++)
         {
-            int key = Links[i].GetHashCode();
+            int key = Links[i].Name.GetHashCode();
             if (!_linkItemMap.ContainsKey(key))
             {
                 _linkItemMap.Add(key,Links[i]);
@@ -141,6 +141,34 @@ public class UIWidget : MonoBehaviour
     {
         OnClose();
         _Destroy?.Invoke();
+    }
+
+
+    public T GetUIWidget<T>(string uiWidget_name) where T : Component
+    {
+        LinkItem linkItem = null;
+        _linkItemMap.TryGetValue(uiWidget_name.GetHashCode(), out linkItem);
+        if (linkItem == null)
+            Debug.LogErrorFormat("get uiWidget  null name： {0} {1}", uiWidget_name,uiWidget_name.GetHashCode());
+        return linkItem != null ? linkItem.UIWidget.GetComponent<T>() : null;
+    }
+
+    public Component GetUIWidget(Type type, string uiWidget_name)
+    {
+        LinkItem item = null;
+        _linkItemMap.TryGetValue(uiWidget_name.GetHashCode(), out item);
+        if (item == null)
+            Debug.LogErrorFormat("get uiWidget  null name： {0}", uiWidget_name);
+        return item != null ? item.UIWidget.GetComponent(type) : null;
+    }
+
+    public GameObject GetUIWidget(string uiWidget_name)
+    {
+        LinkItem linkItem = null;
+        _linkItemMap.TryGetValue(uiWidget_name.GetHashCode(), out linkItem);
+        if (linkItem == null)
+            Debug.LogErrorFormat("get uiWidget  null name： {0}", uiWidget_name);
+        return linkItem != null ? linkItem.UIWidget : null;
     }
 
 }

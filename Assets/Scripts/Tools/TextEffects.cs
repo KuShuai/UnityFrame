@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Collections;
+using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,16 +11,27 @@ public class TextEffects : MonoBehaviour
     int mSpeed = 0;   //调整这个可以调整出现的速度
     int timeSpeed = 0;   
     int index = 0;
-    bool ison = true;
-    private void Start()
+    bool ison = false;
+    private void Awake()
     {
         tex = GetComponent<Text>();
         mStringBuilder = new StringBuilder();
-        SetText("strin_str涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨",15);
+        //SetText("strin_str涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨涨",15);
     }
 
-    public void SetText(string _str,int _speed = 15)
+    public void  SetText(string _str,int _speed = 15)
     {
+        StartCoroutine(SetTextInfo(_str, _speed));
+    }
+    
+
+    private IEnumerator SetTextInfo(string _str,int _speed = 15)
+    {
+        if (ison)
+        {
+            tex.text = str;
+            yield return new WaitForSeconds(3f);
+        }
         str = _str;
         mStringBuilder.Clear();
         tex.text = mStringBuilder.ToString();

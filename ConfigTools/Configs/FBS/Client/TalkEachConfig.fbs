@@ -1,0 +1,15 @@
+﻿namespace AutoGenConfig;
+
+table TalkEachConfig{
+    data:[SingleTalkEachConfigData];
+}
+
+table SingleTalkEachConfigData{
+    ID:int;
+    Name:string;
+    Info:string;
+    next:int;
+}
+
+root_type TalkEachConfig;
+file_identifier "WHAT";

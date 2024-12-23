@@ -1,3 +1,5 @@
+Configs/TalkEachConfig:Configs/Configs.assetbundle
+Configs/TestConfig:Configs/Configs.assetbundle
 HDRPDefaultResources/DefaultHDRISky:HDRPDefaultResources/HDRPDefaultResources.assetbundle
 HDRPDefaultResources/DefaultSceneRoot:HDRPDefaultResources/HDRPDefaultResources.assetbundle
 HDRPDefaultResources/HDRPDefaultSettings:HDRPDefaultResources/HDRPDefaultResources.assetbundle
@@ -41,8 +43,8 @@ Models/Workbench_Low:Models/Models.assetbundle
 Models/Workshop_Set:Models/Models.assetbundle
 Prefabs/Model/Props:Prefabs/Prefabs.assetbundle
 Prefabs/Model/Workshop Set:Prefabs/Prefabs.assetbundle
-Prefabs/UIPrefabs/Panel:Prefabs/Prefabs.assetbundle
 Prefabs/UIPrefabs/Panel1:Prefabs/Prefabs.assetbundle
+Prefabs/UIPrefabs/TalkPanel:Prefabs/Prefabs.assetbundle
 Prefabs/UIPrefabs/UIRoot:Prefabs/Prefabs.assetbundle
 Textures/Concrete/Ground_Albedo:Textures/Textures.assetbundle
 Textures/Concrete/Ground_MetallicOcculusionSmoothness:Textures/Textures.assetbundle
@@ -92,9 +94,11 @@ Textures/Wood/Plywood_Albedo:Textures/Textures.assetbundle
 Textures/Wood/Plywood_MetallicOcculusionSmoothness:Textures/Textures.assetbundle
 Textures/Wood/Plywood_Normal:Textures/Textures.assetbundle
 XLua/Main.lua:XLua/XLua.assetbundle
+XLua/UpdataVersion.lua:XLua/XLua.assetbundle
 XLua/Common/Class.lua:XLua/XLua.assetbundle
 XLua/Common/Singleton.lua:XLua/XLua.assetbundle
 XLua/Manager/UI/UIManager.lua:XLua/XLua.assetbundle
+XLua/Tool/TextEffects.lua:XLua/XLua.assetbundle
 XLua/UI/UIConfig.lua.lua:XLua/XLua.assetbundle
 XLua/UI/UIConfig.lua:XLua/XLua.assetbundle
 XLua/UI/UIPanelEnum.lua:XLua/XLua.assetbundle
